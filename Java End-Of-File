@@ -1,0 +1,10 @@
+Scanner sc = new Scanner(System.in);
+        int j=1;
+        while (sc.hasNext()){
+            String n = sc.nextLine();
+            System.out.println(j+" "+n);
+            j+=1;
+            if (n=="end-of-file") {
+                break;
+            }
+    }
